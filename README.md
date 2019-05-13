@@ -92,3 +92,7 @@ the condition that it is loaded or not. BY using the `beforeEach()` function fun
 
 6. Then write new suite for 'new feed selection', then you need to
 test the feed whether it is loaded or not by using the spec feed loaded.
+
+# AIM OF THE PROJECT:-  
+
+to understand the jasmine testing language by implementing feed reader project.

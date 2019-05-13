@@ -8,6 +8,7 @@
  * since some of these tests may require DOM elements. We want
  * to ensure they don't run until the DOM is ready.
  */
+ // TODO: get the main function
 $(function() {
   /* This is our first test suite - a test suite just contains
    * a related set of tests. This suite is all about the RSS
@@ -21,6 +22,7 @@ $(function() {
      * allFeeds in app.js to be an empty array and refresh the
      * page?
      */
+     // TODO: to check whether the length of allFeeds array
     it('are defined', function() {
       expect(allFeeds).toBeDefined();
       expect(allFeeds.length).not.toBe(0);
