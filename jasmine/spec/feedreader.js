@@ -8,7 +8,7 @@
  * since some of these tests may require DOM elements. We want
  * to ensure they don't run until the DOM is ready.
  */
- // TODO: get the main function
+// TODO: get the main function
 $(function() {
   /* This is our first test suite - a test suite just contains
    * a related set of tests. This suite is all about the RSS
@@ -22,8 +22,8 @@ $(function() {
      * allFeeds in app.js to be an empty array and refresh the
      * page?
      */
-     // TODO: to check whether the length of allFeeds array
-    it('are defined', function() {
+    // TODO: to check whether the length of allFeeds array
+    it('allFeeds are defined', function() {
       expect(allFeeds).toBeDefined();
       expect(allFeeds.length).not.toBe(0);
     });
@@ -33,7 +33,7 @@ $(function() {
      * in the allFeeds object and ensures it has a URL defined
      * and that the URL is not empty.
      */
-    it('have url', function() {
+    it('allFeeds have url', function() {
       allFeeds.map(i => {
         expect(i.url).toBeTruthy();
       })
@@ -42,7 +42,7 @@ $(function() {
      * in the allFeeds object and ensures it has a name defined
      * and that the name is not empty.
      */
-    it('have name', function() {
+    it('allFeeds have name', function() {
       allFeeds.map(i => {
         expect(i.name).toBeTruthy();
       })
@@ -51,7 +51,7 @@ $(function() {
 
 
   /* TODO: Write a new test suite named "The menu" */
-  describe('The menu', function() {
+  describe('The menu side bar', function() {
     /* TODO: Write a test that ensures the menu element is
      * hidden by default. You'll have to analyze the HTML and
      * the CSS to determine how we're performing the
@@ -105,7 +105,7 @@ $(function() {
         });
       });
     });
-    it('checking the feeds (new with old)', function() {
+    it(' the feeds (new with old) was not equal', function() {
       expect(prev).not.toEqual(current);
     });
   });
