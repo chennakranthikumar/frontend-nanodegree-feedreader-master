@@ -93,6 +93,34 @@ These are the changes that I have done to complete the project.
 
 to understand the jasmine testing language by implementing feed reader project.
 
-# WORK FLOW:-
-  I am subjected to do following tests
-  1. 
+# Tests performed in project
+## RSS Feeds
+
+ 1. It must have URl' loops through each feed and it should not be empty.
+2. It must have name'loops through each fedd and it should not be empty.
+
+## The menu
+
+1. It should be hidden by default.
+2. It should open and close by clicking on the hamburger button.
+
+#Initial Entries
+
+1. When loadFeed function is called and completes its work, there should be at least one .entry element within .feed container.
+
+##New Feed Selection
+
+1. it should change the contents when new feed is loaded.
+
+
+#How-to-run
+1. Download the project repository.
+
+2. Unzip it in your computer.
+
+3. Open up index.html file.
+
+#Feed Reader Project conclusion
+
+
+This project mainly focuses on testing javascript code using Jasmine. Testing is performed using different tests. Testing of our logic becomes important when you are adding any new feature in the application.

@@ -33,7 +33,7 @@ $(function() {
      * in the allFeeds object and ensures it has a URL defined
      * and that the URL is not empty.
      */
-    it('allFeeds have url', function() {
+    it('allFeeds has  URL defined and they are not empty', function() {
       allFeeds.map(i => {
         expect(i.url).toBeTruthy();
       })
@@ -42,7 +42,7 @@ $(function() {
      * in the allFeeds object and ensures it has a name defined
      * and that the name is not empty.
      */
-    it('allFeeds have name', function() {
+    it('allFeeds has name defined and they are not empty', function() {
       allFeeds.map(i => {
         expect(i.name).toBeTruthy();
       })
@@ -84,7 +84,8 @@ $(function() {
     beforeEach(function(done) {
       loadFeed(0, done);
     });
-    it('entry element', function() {
+    // TODO: to check the entery elements are present with some data
+    it('entry element are present', function() {
       expect($('.feed .entry').length).toBeGreaterThan(0);
     });
   });
@@ -98,13 +99,16 @@ $(function() {
     var current;
     beforeEach(function(done) {
       loadFeed(0, function() {
+// TODO: to load previous data and store
         prev = $('.feed').html();
         loadFeed(1, function() {
+          // TODO: to load current data and store
           current = $('.feed').html();
           done();
         });
       });
     });
+    // TODO: check wheter the previous data and curent data have same data
     it(' the feeds (new with old) was not equal', function() {
       expect(prev).not.toEqual(current);
     });
