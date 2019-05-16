@@ -104,23 +104,23 @@ to understand the jasmine testing language by implementing feed reader project.
 1. It should be hidden by default.
 2. It should open and close by clicking on the hamburger button.
 
-#Initial Entries
+# Initial Entries
 
 1. When loadFeed function is called and completes its work, there should be at least one .entry element within .feed container.
 
-##New Feed Selection
+# #New Feed Selection
 
 1. it should change the contents when new feed is loaded.
 
 
-#How-to-run
+# How-to-run
 1. Download the project repository.
 
 2. Unzip it in your computer.
 
 3. Open up index.html file.
 
-#Feed Reader Project conclusion
+# Feed Reader Project conclusion
 
 
 This project mainly focuses on testing javascript code using Jasmine. Testing is performed using different tests. Testing of our logic becomes important when you are adding any new feature in the application.
