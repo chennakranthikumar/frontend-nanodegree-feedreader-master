@@ -85,7 +85,7 @@ $(function() {
       loadFeed(0, done);
     });
     // TODO: to check the entery elements are present with some data
-    it('entry element are present', function() {
+    it('entry element are present with some data', function() {
       expect($('.feed .entry').length).toBeGreaterThan(0);
     });
   });
