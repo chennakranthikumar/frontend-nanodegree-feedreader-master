@@ -108,7 +108,7 @@ to understand the jasmine testing language by implementing feed reader project.
 
 1. When loadFeed function is called and completes its work, there should be at least one .entry element within .feed container.
 
-# #New Feed Selection
+## New Feed Selection
 
 1. it should change the contents when new feed is loaded.
 
